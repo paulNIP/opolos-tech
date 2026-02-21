@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "About Us",
+    "products": "Products",
+    "press": "Press",
+    "careers": "Careers",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title": "CREATE SOFTWARE SOLUTION",
+    "subtitle": "For your professional needs solution",
+    "cta": "Write to us"
+  },
+  "about": {
+    "title": "Never doubt that a small group of thoughtful, committed people can change the world.",
+    "description": "Our endeavors has been to create world-class travel and solution technology solutions. We believe in building strong partnerships with our customers to ensure that we are able to deliver a robust and cost-efficient solution to them.",
+    "readMore": "Read more"
+  },
+  "products": {
+    "title": "PRO DUCTS",
+    "description": "Professional solutions for enterprise scale"
+  },
+  "productCard": {
+    "bookDemo": "Book a demo",
+    "citrix": "Airline Solution",
+    "citrixDesc": "An innovative solution that helps airlines to streamline operations, improve feedback and queries. It integrates with the online website and asks on a daily basis.",
+    "github": "Expense Management Solution",
+    "githubDesc": "An easy to use business travel & expense management system that integrates travel data and financial operations using a web-based interface.",
+    "mapster": "Group Revenue Management",
+    "mapsterDesc": "GroupRevi is an innovative solution that helps airlines to streamline group traffic. It analyzes and optimizes group sales by modeling the group analysis to better manage and optimize group sales."
+  },
+  "press": {
+    "title": "Infiniti software solutions plans global expansion",
+    "description": "As a comprehensive software technology service provider to copper rates, claims to be leading the space in India. The company offers diverse services. Our products include advanced tool, expense management, group revenue management, business travel management, and offline CRM solution.",
+    "readMore": "Read more"
+  },
+  "partners": "Our Partners",
+  "contact": {
+    "title": "CONTACT",
+    "support": "Support",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "Sales",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "Contact us"
+  },
+  "footer": {
+    "about": "About Us",
+    "products": "Products",
+    "press": "Press",
+    "careers": "Careers",
+    "contact": "Contact Us"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "Über Uns",
+    "products": "Produkte",
+    "press": "Presse",
+    "careers": "Karrieren",
+    "contact": "Kontaktieren Sie Uns"
+  },
+  "hero": {
+    "title": "SOFTWARELÖSUNG ERSTELLEN",
+    "subtitle": "Für Ihre professionellen Anforderungen Lösung",
+    "cta": "Schreiben Sie uns"
+  },
+  "about": {
+    "title": "Zweifeln Sie nie daran, dass eine kleine Gruppe überlegter, engagierter Menschen die Welt verändern kann.",
+    "description": "Unsere Bemühungen zielen darauf ab, erstklassige Softwaretechnologielösungen zu schaffen. Wir glauben an der Entwicklung starker Partnerschaften mit unseren Kunden, um sicherzustellen, dass wir in der Lage sind, eine robuste und kostengünstige Lösung bereitzustellen.",
+    "readMore": "Mehr erfahren"
+  },
+  "products": {
+    "title": "PRO DUKTE",
+    "description": "Professionelle Lösungen im Unternehmensmaßstab"
+  },
+  "productCard": {
+    "bookDemo": "Demo buchen",
+    "citrix": "Fluggesellschaftslösung",
+    "citrixDesc": "Eine innovative Lösung, die Fluggesellschaften hilft, Operationen zu optimieren, Feedback und Anfragen zu verbessern. Sie integriert sich mit der Online-Website.",
+    "github": "Ausgabenverwaltungslösung",
+    "githubDesc": "Ein benutzerfreundliches Geschäftsreisen- und Ausgabenverwaltungssystem, das Reisedaten und Finanzoperationen mithilfe einer webbasierten Schnittstelle integriert.",
+    "mapster": "Gruppenumsatzverwaltung",
+    "mapsterDesc": "GroupRevi ist eine innovative Lösung, die Fluggesellschaften hilft, Gruppenverkehr zu optimieren. Sie analysiert und optimiert Gruppenverkäufe durch Modellierung der Gruppenanalyse."
+  },
+  "press": {
+    "title": "Infiniti Softwarelösungspläne für globale Expansion",
+    "description": "Als umfassender Anbieter von Softwaretechnologiediensten für Kupfertarife behauptet, in Indien führend zu sein. Das Unternehmen bietet vielfältige Dienstleistungen. Unsere Produkte umfassen fortschrittliche Tools, Ausgabenverwaltung, Gruppenumsatzverwaltung.",
+    "readMore": "Mehr erfahren"
+  },
+  "partners": "Unsere Partner",
+  "contact": {
+    "title": "KONTAKT",
+    "support": "Unterstützung",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "Verkauf",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "Kontaktieren Sie Uns"
+  },
+  "footer": {
+    "about": "Über Uns",
+    "products": "Produkte",
+    "press": "Presse",
+    "careers": "Karrieren",
+    "contact": "Kontaktieren Sie Uns"
+  }
+}

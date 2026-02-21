@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "Acerca de Nosotros",
+    "products": "Productos",
+    "press": "Prensa",
+    "careers": "Carreras",
+    "contact": "Contáctenos"
+  },
+  "hero": {
+    "title": "CREAR SOLUCIÓN DE SOFTWARE",
+    "subtitle": "Para sus necesidades profesionales solución",
+    "cta": "Escríbenos"
+  },
+  "about": {
+    "title": "Nunca dudes que un pequeño grupo de personas reflexivas y comprometidas puede cambiar el mundo.",
+    "description": "Nuestros esfuerzos se han enfocado en crear soluciones de tecnología de viajes de clase mundial. Creemos en construir asociaciones sólidas con nuestros clientes para garantizar que podamos entregar una solución robusta y rentable.",
+    "readMore": "Leer más"
+  },
+  "products": {
+    "title": "PRO DUCTOS",
+    "description": "Soluciones profesionales para escala empresarial"
+  },
+  "productCard": {
+    "bookDemo": "Reservar demostración",
+    "citrix": "Solución Aerolínea",
+    "citrixDesc": "Una solución innovadora que ayuda a las aerolíneas a optimizar operaciones, mejorar retroalimentación y consultas. Se integra con el sitio web en línea.",
+    "github": "Solución de Gestión de Gastos",
+    "githubDesc": "Un sistema fácil de usar de viajes de negocios y gestión de gastos que integra datos de viajes y operaciones financieras usando una interfaz web.",
+    "mapster": "Gestión de Ingresos de Grupo",
+    "mapsterDesc": "GroupRevi es una solución innovadora que ayuda a las aerolíneas a optimizar tráfico de grupo. Analiza y optimiza ventas de grupo modelando el análisis de grupo."
+  },
+  "press": {
+    "title": "Infiniti planes de soluciones de software para expansión global",
+    "description": "Como proveedor integral de servicios de tecnología de software para tarífas de cobre, afirma ser líder en el espacio en India. La empresa ofrece servicios diversos. Nuestros productos incluyen herramientas avanzadas, gestión de gastos, gestión de ingresos de grupo, gestión de viajes de negocios.",
+    "readMore": "Leer más"
+  },
+  "partners": "Nuestros Socios",
+  "contact": {
+    "title": "CONTACTO",
+    "support": "Soporte",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "Ventas",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "Contáctenos"
+  },
+  "footer": {
+    "about": "Acerca de Nosotros",
+    "products": "Productos",
+    "press": "Prensa",
+    "careers": "Carreras",
+    "contact": "Contáctenos"
+  }
+}

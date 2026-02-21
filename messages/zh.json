@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "about": "关于我们",
+    "products": "产品",
+    "press": "新闻",
+    "careers": "职业",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "创建软件解决方案",
+    "subtitle": "为您的专业需求提供解决方案",
+    "cta": "写信给我们"
+  },
+  "about": {
+    "title": "永远不要怀疑，一小群深思熟虑、有决心的人可以改变世界。",
+    "description": "我们的努力一直是创建世界一流的旅游和解决方案技术解决方案。我们相信与客户建立强有力的伙伴关系，以确保我们能够为他们提供强大且经济高效的解决方案。",
+    "readMore": "阅读更多"
+  },
+  "products": {
+    "title": "专业产品",
+    "description": "企业规模的专业解决方案"
+  },
+  "productCard": {
+    "bookDemo": "预约演示",
+    "citrix": "航空公司解决方案",
+    "citrixDesc": "一个创新的解决方案，帮助航空公司优化运营，改进反馈和查询。它与在线网站集成。",
+    "github": "费用管理解决方案",
+    "githubDesc": "一个易于使用的商务旅行和费用管理系统，它集成了旅行数据和财务操作，使用基于Web的界面。",
+    "mapster": "团体收入管理",
+    "mapsterDesc": "GroupRevi是一个创新的解决方案，帮助航空公司优化团体流量。它通过模型化团体分析来分析和优化团体销售。"
+  },
+  "press": {
+    "title": "Infiniti软件解决方案计划全球扩张",
+    "description": "作为铜费率的综合软件技术服务提供商，声称在印度处于领先地位。该公司提供多样化的服务。我们的产品包括高级工具、费用管理、团体收入管理。",
+    "readMore": "阅读更多"
+  },
+  "partners": "我们的合作伙伴",
+  "contact": {
+    "title": "联系",
+    "support": "支持",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "销售",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "联系我们"
+  },
+  "footer": {
+    "about": "关于我们",
+    "products": "产品",
+    "press": "新闻",
+    "careers": "职业",
+    "contact": "联系我们"
+  }
+}
+ 

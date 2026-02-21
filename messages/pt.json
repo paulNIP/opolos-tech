@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "Sobre Nós",
+    "products": "Produtos",
+    "press": "Imprensa",
+    "careers": "Carreiras",
+    "contact": "Contate-nos"
+  },
+  "hero": {
+    "title": "CRIAR SOLUÇÃO DE SOFTWARE",
+    "subtitle": "Para suas necessidades profissionais solução",
+    "cta": "Escreva-nos"
+  },
+  "about": {
+    "title": "Nunca duvide que um pequeno grupo de pessoas pensantes e dedicadas pode mudar o mundo.",
+    "description": "Nossos esforços têm sido criar soluções de tecnologia de viagem de classe mundial. Acreditamos na construção de parcerias fortes com nossos clientes para garantir que sejamos capazes de fornecer uma solução robusta e econômica.",
+    "readMore": "Ler mais"
+  },
+  "products": {
+    "title": "PRO DUTOS",
+    "description": "Soluções profissionais em escala empresarial"
+  },
+  "productCard": {
+    "bookDemo": "Agendar demonstração",
+    "citrix": "Solução Aérea",
+    "citrixDesc": "Uma solução inovadora que ajuda as companhias aéreas a otimizar operações, melhorar feedback e consultas. Ela se integra com o site online.",
+    "github": "Solução de Gestão de Despesas",
+    "githubDesc": "Um sistema fácil de usar de viagens de negócios e gestão de despesas que integra dados de viagem e operações financeiras usando uma interface baseada na web.",
+    "mapster": "Gerenciamento de Receita em Grupo",
+    "mapsterDesc": "GroupRevi é uma solução inovadora que ajuda as companhias aéreas a otimizar tráfego em grupo. Ela analisa e otimiza vendas em grupo modelando a análise de grupo."
+  },
+  "press": {
+    "title": "Planos Infiniti de soluções de software para expansão global",
+    "description": "Como um provedor abrangente de serviços de tecnologia de software para taxas de cobre, afirma ser líder no espaço na Índia. A empresa oferece serviços diversos. Nossos produtos incluem ferramentas avançadas, gestão de despesas, gerenciamento de receita em grupo.",
+    "readMore": "Ler mais"
+  },
+  "partners": "Nossos Parceiros",
+  "contact": {
+    "title": "CONTATO",
+    "support": "Suporte",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "Vendas",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "Contate-nos"
+  },
+  "footer": {
+    "about": "Sobre Nós",
+    "products": "Produtos",
+    "press": "Imprensa",
+    "careers": "Carreiras",
+    "contact": "Contate-nos"
+  }
+}

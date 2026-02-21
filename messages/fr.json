@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "about": "À Propos",
+    "products": "Produits",
+    "press": "Presse",
+    "careers": "Carrières",
+    "contact": "Nous Contacter"
+  },
+  "hero": {
+    "title": "CRÉER UNE SOLUTION LOGICIELLE",
+    "subtitle": "Pour vos besoins professionnels solution",
+    "cta": "Écrivez-nous"
+  },
+  "about": {
+    "title": "Ne doutez jamais qu'un petit groupe de personnes réfléchies et engagées peut changer le monde.",
+    "description": "Nos efforts ont visé à créer des solutions technologiques de classe mondiale. Nous croyons en la construction de partenariats solides avec nos clients pour assurer que nous sommes en mesure de fournir une solution robuste et rentable.",
+    "readMore": "Lire la suite"
+  },
+  "products": {
+    "title": "PRO DUITS",
+    "description": "Solutions professionnelles à l'échelle de l'entreprise"
+  },
+  "productCard": {
+    "bookDemo": "Réserver une démo",
+    "citrix": "Solution Aérienne",
+    "citrixDesc": "Une solution innovante qui aide les compagnies aériennes à rationaliser les opérations, améliorer les commentaires et les requêtes. Il s'intègre au site Web en ligne.",
+    "github": "Solution de Gestion des Dépenses",
+    "githubDesc": "Un système facile à utiliser de voyages d'affaires et de gestion des dépenses qui intègre les données de voyage et les opérations financières à l'aide d'une interface Web.",
+    "mapster": "Gestion des Revenus de Groupe",
+    "mapsterDesc": "GroupRevi est une solution innovante qui aide les compagnies aériennes à optimiser le trafic de groupe. Elle analyse et optimise les ventes de groupe en modélisant l'analyse de groupe."
+  },
+  "press": {
+    "title": "Infiniti plans de solutions logicielles pour l'expansion mondiale",
+    "description": "En tant que fournisseur complet de services technologiques pour les tarifs de cuivre, elle prétend être leader dans l'espace en Inde. L'entreprise offre des services variés. Nos produits incluent des outils avancés, la gestion des dépenses, la gestion des revenus de groupe.",
+    "readMore": "Lire la suite"
+  },
+  "partners": "Nos Partenaires",
+  "contact": {
+    "title": "CONTACT",
+    "support": "Support",
+    "supportPhone": "+123 456 78 89",
+    "supportEmail": "support@create.com",
+    "sales": "Ventes",
+    "salesPhone": "+123 456 78 89",
+    "salesEmail": "sales@create.com",
+    "contactUs": "Nous Contacter"
+  },
+  "footer": {
+    "about": "À Propos",
+    "products": "Produits",
+    "press": "Presse",
+    "careers": "Carrières",
+    "contact": "Nous Contacter"
+  }
+}
