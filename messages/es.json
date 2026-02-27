@@ -3,6 +3,8 @@
     "about": "Acerca de Nosotros",
     "services": "Servicios",
     "industries": "Industrias",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "Prensa",
     "careers": "Carreras",
     "contact": "Contáctenos",
@@ -50,21 +52,44 @@
     "readMore": "Leer más"
   },
   "partners": "Nuestros Socios",
+  "whyChoose": {
+    "prefix": "Por Qué Elegir",
+    "company": "Opolos?",
+    "description": "Con más de 20 años de experiencia, hemos servido con éxito a más de 500 empresas confiables en diferentes industrias. Nuestro equipo dedicado de más de 100 profesionales proporciona capacitación y soporte integral, garantizando crecimiento continuo y éxito para su negocio en toda América Latina."
+  },
   "contact": {
     "title": "CONTACTO",
     "support": "Soporte",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "Ventas",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "Contáctenos"
   },
   "footer": {
-    "about": "Acerca de Nosotros",
+    "services": "Servicios",
+    "servicesItems": ["Diseño Web", "Servicios en Nube", "Alojamiento Web", "IT Administrada", "Seguridad Cibernética", "Desarrollo de Software", "Marketing Digital", "Servicios SEO", "Consultoría IT", "Soporte IT"],
     "products": "Productos",
-    "press": "Prensa",
-    "careers": "Carreras",
-    "contact": "Contáctenos"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Servicios Proctor", "SMSgrind", "Escudo de Fraude Wuyo", "Othware Pay", "Tienda de Navegación", "Precios", "Estado de la Red"],
+    "company": "Empresa",
+    "companyItems": ["Acerca de", "Equipo", "Blog", "Carreras", "Socios", "Casos de Estudio", "Eventos", "Responsabilidad Social", "Kit Multimedia", "Escritores Invitados", "Abrir un Ticket"],
+    "resources": "Recursos",
+    "resourcesItems": ["Ayuda y Preguntas Frecuentes", "Obtener Cotización", "Solicitar Llamada", "Agendar Consulta", "Contáctenos", "Dejar Reseña", "Política de Privacidad", "Términos de Uso", "Política Anti-Spam", "Mapa del Sitio"]
+  },
+  "process": {
+    "title": "Proceso de Consultoría",
+    "titleHighlight": "Proceso",
+    "step1Title": "Requisitos",
+    "step1Desc": "Recopilamos requisitos iniciales para entender sus objetivos comerciales y necesidades específicas.",
+    "step2Title": "Entrevista",
+    "step2Desc": "Consulta detallada con las partes interesadas para alinear expectativas e identificar requisitos clave.",
+    "step3Title": "Propuesta",
+    "step3Desc": "Presentamos una propuesta integral con enfoque, cronograma e inversión para su proyecto.",
+    "step4Title": "Refinación",
+    "step4Desc": "Fase colaborativa de refinación donde ajustamos la solución basada en su retroalimentación.",
+    "step5Title": "Capacitación",
+    "step5Desc": "Programa completo de capacitación para su equipo para asegurar la implementación exitosa.",
+    "cta": "Consultar Ahora"
   }
 }

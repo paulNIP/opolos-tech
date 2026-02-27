@@ -3,6 +3,8 @@
     "about": "About Us",
     "services": "Services",
     "industries": "Industries",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "Press",
     "careers": "Careers",
     "contact": "Contact Us",
@@ -50,21 +52,44 @@
     "readMore": "Read more"
   },
   "partners": "Our Partners",
+  "whyChoose": {
+    "prefix": "Why Choose",
+    "company": "Opolos?",
+    "description": "With over 20 years of experience, we have successfully served more than 500 trusted enterprises across industries. Our dedicated team of over 100 professionals provides comprehensive training and support, ensuring continuous growth and success for your business throughout Vietnam and beyond."
+  },
   "contact": {
     "title": "CONTACT",
     "support": "Support",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "Sales",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "Contact us"
   },
   "footer": {
-    "about": "About Us",
+    "services": "Services",
+    "servicesItems": ["Website Design", "Cloud Services", "Web Hosting", "Managed IT", "Cyber Security", "Software Development", "Digital Marketing", "SEO Services", "IT Consultancy", "IT Support"],
     "products": "Products",
-    "press": "Press",
-    "careers": "Careers",
-    "contact": "Contact Us"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Proctor Services", "SMSgrind", "Wuyo Fraud Shield", "Othware Pay", "Browse Store", "Pricing", "Network Status"],
+    "company": "Company",
+    "companyItems": ["About", "Team", "Blog", "Careers", "Partners", "Case Studies", "Events", "CSR", "Media KIT", "Guest Writers", "Open a Ticket"],
+    "resources": "Resources",
+    "resourcesItems": ["Help & FAQ", "Get a Quotation", "Request a Call Back", "Schedule Consultation", "Contact Us", "Leave a Review", "Privacy Policy", "Terms of Use", "Anti-spam Policy", "Sitemap"]
+  },
+  "process": {
+    "title": "Consultation Process",
+    "titleHighlight": "Process",
+    "step1Title": "Requirements",
+    "step1Desc": "We gather initial requirements to understand your business goals and specific needs for the solution.",
+    "step2Title": "Interview",
+    "step2Desc": "Detailed consultation with stakeholders to align on expectations and identify key functional requirements.",
+    "step3Title": "Proposal",
+    "step3Desc": "We present a comprehensive proposal outlining approach, timeline, and investment for your project.",
+    "step4Title": "Refinement",
+    "step4Desc": "Collaborative refinement phase where we fine-tune the solution based on your feedback and requirements.",
+    "step5Title": "Training",
+    "step5Desc": "Complete training program for your team to ensure successful implementation and adoption.",
+    "cta": "Consult Now"
   }
 }

@@ -3,6 +3,8 @@
     "about": "Sobre Nós",
     "services": "Serviços",
     "industries": "Indústrias",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "Imprensa",
     "careers": "Carreiras",
     "contact": "Entre em Contato",
@@ -50,21 +52,44 @@
     "readMore": "Ler mais"
   },
   "partners": "Nossos Parceiros",
+  "whyChoose": {
+    "prefix": "Por Que Escolher",
+    "company": "Opolos?",
+    "description": "Com mais de 20 anos de experiência, atendemos com sucesso mais de 500 empresas confiáveis em diversos setores. Nossa equipe dedicada de mais de 100 profissionais fornece treinamento e suporte abrangentes, garantindo crescimento contínuo e sucesso para seu negócio em toda a América Latina."
+  },
   "contact": {
     "title": "CONTATO",
     "support": "Suporte",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "Vendas",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "Contate-nos"
   },
   "footer": {
-    "about": "Sobre Nós",
+    "services": "Serviços",
+    "servicesItems": ["Design Web", "Serviços em Nuvem", "Hospedagem Web", "IT Gerenciada", "Segurança Cibernética", "Desenvolvimento de Software", "Marketing Digital", "Serviços SEO", "Consultoria IT", "Suporte IT"],
     "products": "Produtos",
-    "press": "Imprensa",
-    "careers": "Carreiras",
-    "contact": "Contate-nos"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Serviços Proctor", "SMSgrind", "Escudo Fraude Wuyo", "Othware Pay", "Loja de Navegação", "Preços", "Status de Rede"],
+    "company": "Empresa",
+    "companyItems": ["Sobre", "Equipe", "Blog", "Carreiras", "Parceiros", "Estudos de Caso", "Eventos", "RSE", "Kit de Mídia", "Escritores Convidados", "Abrir Ticket"],
+    "resources": "Recursos",
+    "resourcesItems": ["Ajuda e FAQ", "Obter Cotação", "Solicitar Chamada", "Agendar Consulta", "Contate-nos", "Deixar Avaliação", "Política de Privacidade", "Termos de Uso", "Política Anti-Spam", "Mapa do Site"]
+  },
+  "process": {
+    "title": "Processo de Consultoria",
+    "titleHighlight": "Processo",
+    "step1Title": "Requisitos",
+    "step1Desc": "Coletamos requisitos iniciais para entender seus objetivos comerciais e necessidades específicas.",
+    "step2Title": "Entrevista",
+    "step2Desc": "Consulta detalhada com stakeholders para alinhar expectativas e identificar requisitos-chave.",
+    "step3Title": "Proposta",
+    "step3Desc": "Apresentamos uma proposta abrangente descrevendo abordagem, cronograma e investimento.",
+    "step4Title": "Refinamento",
+    "step4Desc": "Fase colaborativa de refinamento onde ajustamos a solução com base em seu feedback.",
+    "step5Title": "Treinamento",
+    "step5Desc": "Programa de treinamento completo para sua equipe garantir implementação bem-sucedida.",
+    "cta": "Consulte Agora"
   }
 }

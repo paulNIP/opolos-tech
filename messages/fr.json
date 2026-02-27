@@ -3,6 +3,8 @@
     "about": "À Propos",
     "services": "Services",
     "industries": "Secteurs",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "Presse",
     "careers": "Carrières",
     "contact": "Nous Contacter",
@@ -50,21 +52,44 @@
     "readMore": "Lire la suite"
   },
   "partners": "Nos Partenaires",
+  "whyChoose": {
+    "prefix": "Pourquoi Choisir",
+    "company": "Opolos?",
+    "description": "Avec plus de 20 ans d'expérience, nous avons servi avec succès plus de 500 entreprises de confiance dans divers secteurs. Notre équipe dévouée de plus de 100 professionnels fournit une formation et un soutien complets, garantissant la croissance continue et le succès de votre entreprise en France et au-delà."
+  },
   "contact": {
     "title": "CONTACT",
     "support": "Support",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "Ventes",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "Nous Contacter"
   },
   "footer": {
-    "about": "À Propos",
+    "services": "Services",
+    "servicesItems": ["Conception Web", "Services Cloud", "Hébergement Web", "IT Gérée", "Sécurité Cyber", "Développement Logiciel", "Marketing Numérique", "Services SEO", "Conseil IT", "Support IT"],
     "products": "Produits",
-    "press": "Presse",
-    "careers": "Carrières",
-    "contact": "Nous Contacter"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Services Proctor", "SMSgrind", "Bouclier Fraude Wuyo", "Othware Pay", "Parcourir Store", "Tarification", "Statut Réseau"],
+    "company": "Entreprise",
+    "companyItems": ["À Propos", "Équipe", "Blog", "Carrières", "Partenaires", "Études de Cas", "Événements", "RSE", "Kit Média", "Rédacteurs Invités", "Ouvrir un Ticket"],
+    "resources": "Ressources",
+    "resourcesItems": ["Aide et FAQ", "Obtenir un Devis", "Demander un Appel", "Planifier une Consultation", "Nous Contacter", "Laisser un Avis", "Politique de Confidentialité", "Conditions d'Utilisation", "Politique Anti-Spam", "Plan du Site"]
+  },
+  "process": {
+    "title": "Processus de Consultation",
+    "titleHighlight": "Processus",
+    "step1Title": "Exigences",
+    "step1Desc": "Nous recueillons les exigences initiales pour comprendre vos objectifs commerciaux et besoins spécifiques.",
+    "step2Title": "Entretien",
+    "step2Desc": "Consultation détaillée avec les parties prenantes pour aligner les attentes et identifier les exigences clés.",
+    "step3Title": "Proposition",
+    "step3Desc": "Nous présentons une proposition complète décrivant l'approche, le calendrier et l'investissement.",
+    "step4Title": "Affinement",
+    "step4Desc": "Phase collaborative d'affinement où nous affinez la solution en fonction de vos retours.",
+    "step5Title": "Formation",
+    "step5Desc": "Programme de formation complète pour votre équipe pour assurer une implémentation réussie.",
+    "cta": "Consulter Maintenant"
   }
 }

@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import { AvatarGroup } from './avatar-group'
 
 export function Hero() {
   const t = useTranslations()
@@ -29,6 +30,11 @@ export function Hero() {
                 <ArrowRight size={16} />
               </div>
             </button>
+
+            {/* Avatar Group */}
+            <div>
+              <AvatarGroup count={500} maxDisplay={4} />
+            </div>
           </div>
 
           {/* Right Image */}

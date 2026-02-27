@@ -3,6 +3,8 @@
     "about": "关于我们",
     "services": "服务",
     "industries": "行业",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "新闻",
     "careers": "招聘",
     "contact": "联系我们",
@@ -50,21 +52,44 @@
     "readMore": "阅读更多"
   },
   "partners": "我们的合作伙伴",
+  "whyChoose": {
+    "prefix": "为什么选择",
+    "company": "Opolos?",
+    "description": "拥有超过20年的经验，我们已成功服务500多家在各行业信任的企业。我们由100多名专业人士组成的专业团队提供全面的培训和支持，确保您的业务在中国及以外地区的持续增长和成功。"
+  },
   "contact": {
     "title": "联系",
     "support": "支持",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "销售",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "联系我们"
   },
   "footer": {
-    "about": "关于我们",
+    "services": "服务",
+    "servicesItems": ["网站设计", "云服务", "网页托管", "托管 IT", "网络安全", "软件开发", "数字营销", "SEO 服务", "IT 咨询", "IT 支持"],
     "products": "产品",
-    "press": "新闻",
-    "careers": "职业",
-    "contact": "联系我们"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Proctor 服务", "SMSgrind", "Wuyo 欺诈防护", "Othware Pay", "浏览商店", "定价", "网络状态"],
+    "company": "公司",
+    "companyItems": ["关于", "团队", "博客", "职业", "合作伙伴", "案例研究", "活动", "企业社会责任", "媒体工具包", "特邀作者", "打开工单"],
+    "resources": "资源",
+    "resourcesItems": ["帮助和常见问题", "获取报价", "请求回电", "安排咨询", "联系我们", "留下评论", "隐私政策", "使用条款", "反垃圾邮件政策", "网站地图"]
+  },
+  "process": {
+    "title": "咨询流程",
+    "titleHighlight": "流程",
+    "step1Title": "需求分析",
+    "step1Desc": "我们收集初始需求，以了解您的业务目标和具体需求。",
+    "step2Title": "访谈",
+    "step2Desc": "与利益相关者进行详细磋商，以协调期望并确定关键需求。",
+    "step3Title": "提案",
+    "step3Desc": "我们提出全面的提案，说明方法、时间表和投资。",
+    "step4Title": "完善",
+    "step4Desc": "协作完善阶段，根据您的反馈调整解决方案。",
+    "step5Title": "培训",
+    "step5Desc": "为您的团队提供完整培训计划，确保成功实施。",
+    "cta": "立即咨询"
   }
 }

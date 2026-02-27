@@ -49,6 +49,7 @@ export function Contact() {
                   </div>
                 </div>
               </div>
+              
             </div>
 
             {/* CTA Button */}

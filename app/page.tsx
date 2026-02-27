@@ -11,6 +11,7 @@ import { Products } from '@/components/products'
 import { Press } from '@/components/press'
 import { Contact } from '@/components/contact'
 import { Footer } from '@/components/footer'
+import { Process } from '@/components/process'
 import enMessages from '@/messages/en.json'
 import esMessages from '@/messages/es.json'
 import frMessages from '@/messages/fr.json'
@@ -38,6 +39,7 @@ function PageContent({ currentLanguage, onLanguageChange }: { currentLanguage: L
           <Hero />
           <About />
           <Products />
+          <Process />
           <Press />
           <Contact />
         </main>

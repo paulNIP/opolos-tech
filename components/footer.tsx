@@ -10,41 +10,116 @@ export function Footer() {
 
   return (
     <footer className="bg-gray-900 text-white">
+
+      {/* Map Section */}
+      <div className="w-full h-64 lg:h-80 bg-gray-800 overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2155256750735!2d-74.005974!3d40.712776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sCREATE%20Software%20Solutions!2s10%20E%2040th%20St%2C%20New%20York%2C%20NY%2010016!5e0!3m2!1sen!2sus!4v1700000000000"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pb-8 border-b border-gray-800">
-          {/* Brand */}
-          <div className="space-y-4">
+        {/* Main Footer Content - Brand on Left, 4 Columns on Right */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 pb-8 border-b border-gray-800 mb-12">
+          {/* Brand Section - Left Side */}
+          <div className="lg:col-span-1 space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-6 h-6 bg-blue-600 rounded-sm"></div>
-              <span className="font-bold text-lg">Opolos<br/> Technology</span>
+              <span className="font-heading text-lg font-bold">OPOLOS TECHNOLOGIES</span>
             </div>
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-400 text-sm leading-relaxed">
               Professional software solutions for enterprise scale.
             </p>
+            {/* Social Links */}
+            <div className="flex space-x-4 pt-4">
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+                <Youtube size={18} />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+                <Linkedin size={18} />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+                <Twitter size={18} />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-blue-500 transition">
+                <Facebook size={18} />
+              </a>
+            </div>
           </div>
 
-          {/* Links */}
-          <div className="grid grid-cols-2 gap-4">
-            <a href="#about" className="text-gray-400 hover:text-white text-sm transition">
-              {t('footer.about')}
-            </a>
-            <a href="#products" className="text-gray-400 hover:text-white text-sm transition">
-              {t('footer.products')}
-            </a>
-            <a href="#press" className="text-gray-400 hover:text-white text-sm transition">
-              {t('footer.press')}
-            </a>
-            <a href="#careers" className="text-gray-400 hover:text-white text-sm transition">
-              {t('footer.careers')}
-            </a>
-            <a href="#contact" className="text-gray-400 hover:text-white text-sm transition">
-              {t('footer.contact')}
-            </a>
+          {/* 4 Column Footer Links - Right Side */}
+          <div className="lg:col-span-4 grid grid-cols-2 md:grid-cols-4 gap-8">
+            {/* Services Column */}
+            <div>
+              <h3 className="text-blue-400 font-heading font-bold text-lg mb-6">
+                {t('footer.services')}
+              </h3>
+              <ul className="space-y-3">
+                {t.raw('footer.servicesItems').map((item: string, idx: number) => (
+                  <li key={idx}>
+                    <a href="#" className="text-gray-400 hover:text-blue-400 transition text-sm">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Products Column */}
+            <div>
+              <h3 className="text-blue-400 font-heading font-bold text-lg mb-6">
+                {t('footer.products')}
+              </h3>
+              <ul className="space-y-3">
+                {t.raw('footer.productsItems').map((item: string, idx: number) => (
+                  <li key={idx}>
+                    <a href="#" className="text-gray-400 hover:text-blue-400 transition text-sm">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Company Column */}
+            <div>
+              <h3 className="text-blue-400 font-heading font-bold text-lg mb-6">
+                {t('footer.company')}
+              </h3>
+              <ul className="space-y-3">
+                {t.raw('footer.companyItems').map((item: string, idx: number) => (
+                  <li key={idx}>
+                    <a href="#" className="text-gray-400 hover:text-blue-400 transition text-sm">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Resources Column */}
+            <div>
+              <h3 className="text-blue-400 font-heading font-bold text-lg mb-6">
+                {t('footer.resources')}
+              </h3>
+              <ul className="space-y-3">
+                {t.raw('footer.resourcesItems').map((item: string, idx: number) => (
+                  <li key={idx}>
+                    <a href="#" className="text-gray-400 hover:text-blue-400 transition text-sm">
+                      {item}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
-
-        {/* Social Links */}
-        
       </div>
 
       

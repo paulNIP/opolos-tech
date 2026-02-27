@@ -3,6 +3,8 @@
     "about": "私たちについて",
     "services": "サービス",
     "industries": "業界",
+        "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "プレス",
     "careers": "キャリア",
     "contact": "お問い合わせ",
@@ -50,21 +52,44 @@
     "readMore": "続きを読む"
   },
   "partners": "パートナー",
+  "whyChoose": {
+    "prefix": "なぜ選ぶのか",
+    "company": "Opolos?",
+    "description": "20年以上の経験を持ち、様々な業界で500以上の信頼できる企業にサービスを提供してきました。100人以上の専門家で構成された専任チームが包括的なトレーニングとサポートを提供し、日本およびその他の地域でのビジネスの継続的な成長と成功を保証します。"
+  },
   "contact": {
     "title": "お問い合わせ",
     "support": "サポート",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "販売",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "お問い合わせ"
   },
   "footer": {
-    "about": "私たちについて",
+    "services": "サービス",
+    "servicesItems": ["ウェブデザイン", "クラウドサービス", "ウェブホスティング", "マネージド IT", "サイバーセキュリティ", "ソフトウェア開発", "デジタルマーケティング", "SEO サービス", "IT コンサルティング", "IT サポート"],
     "products": "製品",
-    "press": "プレス",
-    "careers": "キャリア",
-    "contact": "お問い合わせ"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Proctor サービス", "SMSgrind", "Wuyo 詐欺シールド", "Othware Pay", "ストアを参照", "価格設定", "ネットワークステータス"],
+    "company": "会社",
+    "companyItems": ["について", "チーム", "ブログ", "キャリア", "パートナー", "ケーススタディ", "イベント", "企業の社会的責任", "メディアキット", "ゲストライター", "チケットを開く"],
+    "resources": "リソース",
+    "resourcesItems": ["ヘルプと FAQ", "見積もりを取得", "コールバックをリクエスト", "コンサルテーションをスケジュール", "お問い合わせ", "レビューを残す", "プライバシーポリシー", "利用規約", "スパム対策ポリシー", "サイトマップ"]
+  },
+  "process": {
+    "title": "コンサルテーション プロセス",
+    "titleHighlight": "プロセス",
+    "step1Title": "要件",
+    "step1Desc": "初期要件を収集して、ビジネス目標と具体的なニーズを理解します。",
+    "step2Title": "インタビュー",
+    "step2Desc": "利害関係者との詳細な相談を行い、期待を調整し、重要な要件を特定します。",
+    "step3Title": "提案",
+    "step3Desc": "アプローチ、タイムライン、投資を記載した包括的な提案を提示します。",
+    "step4Title": "改善",
+    "step4Desc": "フィードバックに基づいてソリューションを調整する協調的な改善段階。",
+    "step5Title": "トレーニング",
+    "step5Desc": "チーム向けの包括的なトレーニング プログラムで成功を確保します。",
+    "cta": "今すぐ相談"
   }
 }

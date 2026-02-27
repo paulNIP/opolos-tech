@@ -65,9 +65,19 @@ export function Press() {
           </div>
         </div>
 
+      
         {/* Partners Section with Auto-Scrolling Carousel */}
         <div className="mt-20 pt-20 border-t border-gray-200">
-          <p className="text-gray-600 font-medium mb-12">{t('partners')}</p>
+           {/* Why Choose Us Section */}
+          <div className="mt-20 pt-20 border-t border-gray-200 text-center max-w-3xl mx-auto mb-20">
+            <h2 className="text-4xl lg:text-5xl font-heading text-gray-900 leading-tight mb-8">
+              <span className="text-blue-500">{t('whyChoose.prefix')}</span> {t('whyChoose.company')}
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              {t('whyChoose.description')}
+            </p>
+            <div className="w-24 h-1 bg-blue-500 mx-auto"></div>
+          </div>
           
           {/* Auto-Scrolling Carousel - All Screen Sizes */}
           <div className="relative w-full overflow-hidden bg-white rounded-lg py-8">

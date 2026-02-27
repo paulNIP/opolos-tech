@@ -4,10 +4,22 @@ import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { ChevronDown, Menu, X } from 'lucide-react'
 import { i18n, type Locale } from '@/i18n.config'
+import { ArrowRight } from 'lucide-react'
 
 interface NavbarProps {
   currentLanguage: Locale
   onLanguageChange: (lang: Locale) => void
+}
+
+// Flag color mapping for each language (supporting 2-3 colors)
+const flagColors: Record<Locale, { colors: string[] }> = {
+  en: { colors: ['#012169', '#FFFFFF', '#C8102E'] }, // UK: Blue, White, Red
+  es: { colors: ['#C60B1E', '#FFC400', '#C60B1E'] }, // Spain: Red, Gold, Red
+  fr: { colors: ['#002395', '#FFFFFF', '#C1121F'] }, // France: Blue, White, Red
+  de: { colors: ['#000000', '#DD0000', '#FFCE00'] }, // Germany: Black, Red, Gold
+  zh: { colors: ['#DE2910', '#FFDE00'] }, // China: Red, Gold
+  pt: { colors: ['#006600', '#FFFFFF', '#FF0000'] }, // Portugal: Green, White, Red
+  ja: { colors: ['#BC002D', '#FFFFFF'] }, // Japan: Red, White
 }
 
 export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
@@ -62,7 +74,7 @@ export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-6 h-6 bg-blue-600 rounded-sm"></div>
-            <span className="font-heading text-lg text-gray-700">Opolos Technologies</span>
+            <span className="font-heading text-lg text-gray-900">OPOLOS TECHNOLOGIES</span>
           </div>
 
           {/* Desktop Navigation Menu */}
@@ -120,34 +132,53 @@ export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
 
               {isIndustriesOpen && (
                 <div className="absolute left-0 right-0 mt-0 w-screen ml-[calc(-50vw+50%)] bg-white border-b border-gray-200 shadow-2xl py-12 px-4 sm:px-6 lg:px-8 z-40">
-                  <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-                    {industriesLinks.map((link) => (
-                      <div key={link.key} className="space-y-3">
+                  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-4 gap-8">
+                    {/* First Column - Featured Content */}
+                    <div className="lg:col-span-1">
+                      <div className="p-6 text-white h-full flex flex-col justify-between">
+                        <p className="text-sm font-heading text-gray-900">
+                          {t('nav.explore')}</p>
                         <a
-                          href={`#${link.key}`}
-                          className="p-4 rounded-lg hover:bg-blue-50 hover:text-blue-600 transition group/item block"
-                          onClick={() => setIsIndustriesOpen(false)}
+                          href={`#industriesFeatured`}
+                          className="block p-3 rounded-lg transition"
+                          onClick={() => {}}
                         >
-                          <div className="text-sm font-medium text-gray-900 group-hover/item:text-blue-600" style={{fontWeight: 500}}>
-                            {link.label}
+                          <div className="text-sm font-heading text-gray-900 flex items-center gap-2" style={{fontWeight: 500}}>
+                            {t('nav.getStarted')}  <ArrowRight size={16} color="#DC3340"/>
                           </div>
+                          
                         </a>
-                        {/* Sublinks */}
-                        <div className="space-y-2 ml-2">
+                      </div>
+                    </div>
+
+                    {/* Grid Layout - Industry Items */}
+                    <div className="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {industriesLinks.map((link) => (
+                        <div key={link.key} className="space-y-3">
+                          <a
+                            href={`#${link.key}`}
+                            className="block p-3 rounded-lg hover:text-blue-600 transition"
+                            onClick={() => setIsIndustriesOpen(false)}
+                          >
+                            <div className="text-sm font-heading text-gray-900" style={{fontWeight: 700}}>
+                              {link.label}
+                            </div>
+                          </a>
+                          {/* Sublinks */}
                           {link.sublinks && link.sublinks.map((sublink, idx) => (
                             <a
                               key={`${link.key}-${idx}`}
                               href={`#${link.key}-${idx}`}
-                              className="block text-xs text-gray-600 hover:text-blue-600 hover:pl-2 transition pl-0"
+                              className="block text-xs text-gray-600 hover:text-blue-600 pl-3 hover:border-blue-600 transition"
                               style={{fontWeight: 500}}
                               onClick={() => setIsIndustriesOpen(false)}
                             >
-                              • {sublink}
+                              {sublink}
                             </a>
                           ))}
                         </div>
-                      </div>
-                    ))}
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}
@@ -170,14 +201,26 @@ export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
             <div className="relative">
               <button
                 onClick={() => setIsLanguageOpen(!isLanguageOpen)}
-                className="flex items-center space-x-1 text-sm font-heading text-gray-700 hover:text-blue-600 transition px-2 py-1"
+                className="flex items-center space-x-2 text-sm font-heading text-gray-700 hover:text-blue-600 transition px-2 py-1"
               >
+                {/* Country Flag Colors */}
+                <div className="w-5 h-5 rounded flex overflow-hidden">
+                  {flagColors[currentLanguage].colors.map((color, idx) => (
+                    <div
+                      key={idx}
+                      style={{
+                        backgroundColor: color,
+                        flex: 1,
+                      }}
+                    />
+                  ))}
+                </div>
                 <span>{currentLanguage.toUpperCase()}</span>
                 <ChevronDown size={16} />
               </button>
 
               {isLanguageOpen && (
-                <div className="absolute right-0 mt-2 w-32 bg-white border border-gray-200 rounded-lg shadow-lg">
+                <div className="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg">
                   {i18n.locales.map((lang) => (
                     <button
                       key={lang}
@@ -185,14 +228,26 @@ export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
                         onLanguageChange(lang)
                         setIsLanguageOpen(false)
                       }}
-                      className={`w-full text-left px-4 py-2 text-sm transition ${
+                      className={`w-full text-left px-4 py-2 text-sm transition flex items-center space-x-2 ${
                         currentLanguage === lang
                           ? 'bg-blue-50 text-blue-600 font-heading'
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
                       style={{fontWeight: currentLanguage === lang ? 700 : 500}}
                     >
-                      {lang.toUpperCase()}
+                      {/* Flag indicator in dropdown */}
+                      <div className="w-4 h-4 rounded flex overflow-hidden flex-shrink-0">
+                        {flagColors[lang].colors.map((color, idx) => (
+                          <div
+                            key={idx}
+                            style={{
+                              backgroundColor: color,
+                              flex: 1,
+                            }}
+                          />
+                        ))}
+                      </div>
+                      <span>{lang.toUpperCase()}</span>
                     </button>
                   ))}
                 </div>
@@ -303,4 +358,6 @@ export function Navbar({ currentLanguage, onLanguageChange }: NavbarProps) {
     </header>
   )
 }
+
+
 

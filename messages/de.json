@@ -3,6 +3,8 @@
     "about": "Über Uns",
     "services": "Dienstleistungen",
     "industries": "Branchen",
+    "getStarted": "Get Started",
+    "explore": "Explore solutions tailored to your industry needs and drive digital transformation.",
     "press": "Presse",
     "careers": "Karrieren",
     "contact": "Kontaktieren Sie Uns",
@@ -50,21 +52,44 @@
     "readMore": "Mehr erfahren"
   },
   "partners": "Unsere Partner",
+  "whyChoose": {
+    "prefix": "Warum Wählen",
+    "company": "Opolos?",
+    "description": "Mit über 20 Jahren Erfahrung haben wir erfolgreich über 500 vertrauenswürdige Unternehmen in verschiedenen Branchen bedient. Unser engagiertes Team von über 100 Fachleuten bietet umfassende Schulung und Unterstützung und garantiert kontinuierliches Wachstum und Erfolg für Ihr Unternehmen in Deutschland und darüber hinaus."
+  },
   "contact": {
     "title": "KONTAKT",
     "support": "Unterstützung",
     "supportPhone": "+123 456 78 89",
-    "supportEmail": "support@create.com",
+    "supportEmail": "support@opolos.tech",
     "sales": "Verkauf",
     "salesPhone": "+123 456 78 89",
-    "salesEmail": "sales@create.com",
+    "salesEmail": "sales@opolos.tech",
     "contactUs": "Kontaktieren Sie Uns"
   },
   "footer": {
-    "about": "Über Uns",
+    "services": "Dienstleistungen",
+    "servicesItems": ["Webdesign", "Cloud-Services", "Webhosting", "IT-Verwaltung", "Cybersicherheit", "Softwareentwicklung", "Digitales Marketing", "SEO-Services", "IT-Beratung", "IT-Support"],
     "products": "Produkte",
-    "press": "Presse",
-    "careers": "Karrieren",
-    "contact": "Kontaktieren Sie Uns"
+    "productsItems": ["xLabor MIS", "Ojonoo", "HostCyclop", "Proctor Services", "SMSgrind", "Wuyo Fraud Shield", "Othware Pay", "Browse Store", "Preisgestaltung", "Netzwerkstatus"],
+    "company": "Unternehmen",
+    "companyItems": ["Über Uns", "Team", "Blog", "Karrieren", "Partner", "Fallstudien", "Veranstaltungen", "CSR", "Media Kit", "Gastautoren", "Ticket Öffnen"],
+    "resources": "Ressourcen",
+    "resourcesItems": ["Hilfe & FAQ", "Angebot Erhalten", "Anruf Anfragen", "Beratung Planen", "Kontaktieren Sie Uns", "Bewertung Hinterlassen", "Datenschutzrichtlinie", "Nutzungsbedingungen", "Anti-Spam-Richtlinie", "Sitemap"]
+  },
+  "process": {
+    "title": "Beratungsprozess",
+    "titleHighlight": "Prozess",
+    "step1Title": "Anforderungen",
+    "step1Desc": "Wir erfassen die Anfangsanforderungen, um Ihre Geschäftsziele und spezifischen Anforderungen zu verstehen.",
+    "step2Title": "Interview",
+    "step2Desc": "Ausführliche Konsultation mit Interessengruppen, um Erwartungen abzustimmen und Schlüsselanforderungen zu identifizieren.",
+    "step3Title": "Vorschlag",
+    "step3Desc": "Wir präsentieren einen umfassenden Vorschlag mit Ansatz, Zeitplan und Investition.",
+    "step4Title": "Verfeinerung",
+    "step4Desc": "Kollaborative Verfeinerungsphase, in der wir die Lösung basierend auf Ihrem Feedback anpassen.",
+    "step5Title": "Schulung",
+    "step5Desc": "Umfassendes Schulungsprogramm für Ihr Team, um erfolgreiche Implementierung zu gewährleisten.",
+    "cta": "Jetzt Beraten"
   }
 }
