@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "私たちについて",
-    "products": "製品",
+    "services": "サービス",
+    "industries": "業界",
     "press": "プレス",
     "careers": "キャリア",
-    "contact": "お問い合わせ"
+    "contact": "お問い合わせ",
+    "servicesSoftware": "ソフトウェアソリューション",
+    "servicesCohnsulting": "コンサルティング",
+    "servicesImplementation": "実装",
+    "servicesSupport": "サポート",
+    "industriesAirline": "航空業界",
+    "industriesAirlineSublinks": ["飛行運用", "乗務員管理", "収益管理"],
+    "industriesHospitality": "ホスピタリティ",
+    "industriesHospitalitySublinks": ["ホテル管理", "ゲストサービス", "予約システム"],
+    "industriesRetail": "小売業",
+    "industriesRetailSublinks": ["販売時点情報管理", "在庫管理", "顧客分析"],
+    "industriesFinance": "金融",
+    "industriesFinanceSublinks": ["銀行ソリューション", "決済処理", "リスク管理"],
+    "industriesHealthcare": "ヘルスケア",
+    "industriesHealthcareSublinks": ["患者管理", "医療記録", "請求システム"]
   },
   "hero": {
     "title": "ソフトウェアソリューションを作成",

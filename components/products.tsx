@@ -18,7 +18,7 @@ function ProductCard({ title, description, icon }: ProductCardProps) {
         {icon}
       </div>
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-bold text-gray-900">{title}</h3>
+        <h3 className="text-xl font-heading text-gray-900">{title}</h3>
         <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
         <button className="inline-flex items-center justify-center w-10 h-10 bg-blue-600 rounded-full text-white hover:bg-blue-700 transition">
           <ArrowRight size={16} />
@@ -35,7 +35,7 @@ export function Products() {
     <section id="products" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         <div className="space-y-4">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 className="text-4xl lg:text-5xl font-heading text-gray-900">
             {t('products.title')}
           </h2>
           <p className="text-lg text-gray-600">
@@ -44,7 +44,6 @@ export function Products() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            
           <ProductCard
             icon="C"
             title={t('productCard.citrix')}

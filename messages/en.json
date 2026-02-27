@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "About Us",
-    "products": "Products",
+    "services": "Services",
+    "industries": "Industries",
     "press": "Press",
     "careers": "Careers",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "servicesSoftware": "Software Solutions",
+    "servicesCohnsulting": "Consulting",
+    "servicesImplementation": "Implementation",
+    "servicesSupport": "Support",
+    "industriesAirline": "Airline & Aviation",
+    "industriesAirlineSublinks": ["Flight Operations", "Crew Management", "Revenue Management"],
+    "industriesHospitality": "Hospitality",
+    "industriesHospitalitySublinks": ["Hotel Management", "Guest Services", "Booking System"],
+    "industriesRetail": "Retail",
+    "industriesRetailSublinks": ["Point of Sale", "Inventory Management", "Customer Analytics"],
+    "industriesFinance": "Finance",
+    "industriesFinanceSublinks": ["Banking Solutions", "Payment Processing", "Risk Management"],
+    "industriesHealthcare": "Healthcare",
+    "industriesHealthcareSublinks": ["Patient Management", "Medical Records", "Billing System"]
   },
   "hero": {
     "title": "CREATE SOFTWARE SOLUTION",

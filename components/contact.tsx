@@ -22,7 +22,7 @@ export function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Support */}
               <div className="space-y-4">
-                <h3 className="text-lg font-bold text-gray-900">{t('contact.support')}</h3>
+                <h3 className="text-lg font-heading text-gray-900">{t('contact.support')}</h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3 text-gray-600">
                     <Phone size={18} className="text-blue-600 flex-shrink-0" />
@@ -37,7 +37,7 @@ export function Contact() {
 
               {/* Sales */}
               <div className="space-y-4">
-                <h3 className="text-lg font-bold text-gray-900">{t('contact.sales')}</h3>
+                <h3 className="text-lg font-heading text-gray-900">{t('contact.sales')}</h3>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3 text-gray-600">
                     <Phone size={18} className="text-blue-600 flex-shrink-0" />

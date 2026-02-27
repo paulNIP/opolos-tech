@@ -14,7 +14,7 @@ export function Hero() {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-heading text-gray-900 leading-tight">
                 {t('hero.title')}
               </h1>
               <p className="text-lg text-gray-600">

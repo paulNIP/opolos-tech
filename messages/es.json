@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "Acerca de Nosotros",
-    "products": "Productos",
+    "services": "Servicios",
+    "industries": "Industrias",
     "press": "Prensa",
     "careers": "Carreras",
-    "contact": "Contáctenos"
+    "contact": "Contáctenos",
+    "servicesSoftware": "Soluciones de Software",
+    "servicesCohnsulting": "Consultoría",
+    "servicesImplementation": "Implementación",
+    "servicesSupport": "Soporte",
+    "industriesAirline": "Aerolíneas y Aviación",
+    "industriesAirlineSublinks": ["Operaciones de Vuelo", "Gestión de Tripulación", "Gestión de Ingresos"],
+    "industriesHospitality": "Hotelería",
+    "industriesHospitalitySublinks": ["Gestión Hotelera", "Servicios al Huésped", "Sistema de Reservas"],
+    "industriesRetail": "Retail",
+    "industriesRetailSublinks": ["Punto de Venta", "Gestión de Inventario", "Análisis de Clientes"],
+    "industriesFinance": "Finanzas",
+    "industriesFinanceSublinks": ["Soluciones Bancarias", "Procesamiento de Pagos", "Gestión de Riesgos"],
+    "industriesHealthcare": "Salud",
+    "industriesHealthcareSublinks": ["Gestión de Pacientes", "Registros Médicos", "Sistema de Facturación"]
   },
   "hero": {
     "title": "CREAR SOLUCIÓN DE SOFTWARE",

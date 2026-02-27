@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "关于我们",
-    "products": "产品",
+    "services": "服务",
+    "industries": "行业",
     "press": "新闻",
-    "careers": "职业",
-    "contact": "联系我们"
+    "careers": "招聘",
+    "contact": "联系我们",
+    "servicesSoftware": "软件解决方案",
+    "servicesCohnsulting": "咨询服务",
+    "servicesImplementation": "实施服务",
+    "servicesSupport": "技术支持",
+    "industriesAirline": "航空和航天",
+    "industriesAirlineSublinks": ["飞行运营", "机组管理", "收益管理"],
+    "industriesHospitality": "酒店业",
+    "industriesHospitalitySublinks": ["酒店管理", "客人服务", "预订系统"],
+    "industriesRetail": "零售业",
+    "industriesRetailSublinks": ["销售点", "库存管理", "客户分析"],
+    "industriesFinance": "金融",
+    "industriesFinanceSublinks": ["银行解决方案", "支付处理", "风险管理"],
+    "industriesHealthcare": "医疗保健",
+    "industriesHealthcareSublinks": ["患者管理", "医疗记录", "计费系统"]
   },
   "hero": {
     "title": "创建软件解决方案",
@@ -53,4 +68,3 @@
     "contact": "联系我们"
   }
 }
- 

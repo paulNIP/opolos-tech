@@ -1,14 +1,20 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import {  IBM_Plex_Sans } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const _ibmPlexSans = IBM_Plex_Sans({ 
+  weight: ['400', '500','700'],
+  subsets: ["latin"],
+  variable: '--font-ibm-plex'
+});
 
 export const metadata: Metadata = {
-  title: 'CREATE - Software Solutions',
-  description: 'Professional software solutions for enterprise scale',
+  title: 'Opolos - Technologies',
+  description: 'Professional software solutions for Small and enterprise scale',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -36,7 +42,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased bg-gray-50">
+      <body className={`font-sans antialiased bg-gray-50 ${_ibmPlexSans.variable}`}>
         {children}
         <Analytics />
       </body>

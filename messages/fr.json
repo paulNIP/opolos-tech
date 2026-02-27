@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "À Propos",
-    "products": "Produits",
+    "services": "Services",
+    "industries": "Secteurs",
     "press": "Presse",
     "careers": "Carrières",
-    "contact": "Nous Contacter"
+    "contact": "Nous Contacter",
+    "servicesSoftware": "Solutions Logicielles",
+    "servicesCohnsulting": "Conseil",
+    "servicesImplementation": "Implémentation",
+    "servicesSupport": "Support",
+    "industriesAirline": "Aéronautique et Aviation",
+    "industriesAirlineSublinks": ["Opérations de Vol", "Gestion d'Équipage", "Gestion des Revenus"],
+    "industriesHospitality": "Hôtellerie",
+    "industriesHospitalitySublinks": ["Gestion Hôtelière", "Services aux Clients", "Système de Réservation"],
+    "industriesRetail": "Retail",
+    "industriesRetailSublinks": ["Point de Vente", "Gestion des Stocks", "Analyse Client"],
+    "industriesFinance": "Finance",
+    "industriesFinanceSublinks": ["Solutions Bancaires", "Traitement des Paiements", "Gestion des Risques"],
+    "industriesHealthcare": "Santé",
+    "industriesHealthcareSublinks": ["Gestion des Patients", "Dossiers Médicaux", "Système de Facturation"]
   },
   "hero": {
     "title": "CRÉER UNE SOLUTION LOGICIELLE",

@@ -26,7 +26,7 @@ export function About() {
 
           {/* Right - Content */}
           <div className="lg:col-span-2 space-y-6">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight max-w-2xl">
+            <h2 className="text-3xl lg:text-4xl font-heading text-gray-900 leading-tight max-w-2xl">
               {t('about.title')}
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">

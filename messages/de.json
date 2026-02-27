@@ -1,10 +1,25 @@
 {
   "nav": {
     "about": "Über Uns",
-    "products": "Produkte",
+    "services": "Dienstleistungen",
+    "industries": "Branchen",
     "press": "Presse",
     "careers": "Karrieren",
-    "contact": "Kontaktieren Sie Uns"
+    "contact": "Kontaktieren Sie Uns",
+    "servicesSoftware": "Softwarelösungen",
+    "servicesCohnsulting": "Beratung",
+    "servicesImplementation": "Implementierung",
+    "servicesSupport": "Unterstützung",
+    "industriesAirline": "Luftfahrt und Luftverkehr",
+    "industriesAirlineSublinks": ["Flugbetrieb", "Besatzungsverwaltung", "Umsatzverwaltung"],
+    "industriesHospitality": "Gastgewerbe",
+    "industriesHospitalitySublinks": ["Hotelverwaltung", "Gästeservice", "Buchungssystem"],
+    "industriesRetail": "Einzelhandel",
+    "industriesRetailSublinks": ["Verkaufsstelle", "Bestandsverwaltung", "Kundenanalyse"],
+    "industriesFinance": "Finanzen",
+    "industriesFinanceSublinks": ["Bankenlösungen", "Zahlungsabwicklung", "Risikomanagement"],
+    "industriesHealthcare": "Gesundheitswesen",
+    "industriesHealthcareSublinks": ["Patientenverwaltung", "Krankenakten", "Abrechnungssystem"]
   },
   "hero": {
     "title": "SOFTWARELÖSUNG ERSTELLEN",
